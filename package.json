@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/mohibullahkamal/videoStore-nodejs/issues"
   },
-  "homepage": "https://github.com/mohibullahkamal/videoStore-nodejs#readme"
+  "homepage": "https://github.com/mohibullahkamal/videoStore-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "joi": "^14.3.1"
+  }
 }
