@@ -4,4 +4,4 @@ const app = express();
 
 
 
-
+module.exports = server;
