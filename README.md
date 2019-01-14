@@ -1,2 +1,2 @@
 # videoStore-nodejs
-Build the Backend for my online Video Store using NodeJS.
+Build my online Video Store using Angular in frontend, and NodeJS in Backend.
