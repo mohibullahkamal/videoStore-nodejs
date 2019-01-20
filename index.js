@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 
-const courses = [
+const genres = [
     { id: 1, name: 'animation' },
     { id: 2, name: 'crime' },
     { id: 3, name: 'documentary' },
@@ -11,19 +11,13 @@ const courses = [
     { id: 5, name: 'horror' },
 ];
 
-
 app.get('/', (req, res) => {
     res.send('Hello World');
 });
 
-app.get('/api/courses', (req, res) => {
-    res.send(courses);
+app.get('/api/genres', (req, res) => {
+    res.send(genres);
 });
-
-
-
-
-
 
 
 
